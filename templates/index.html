@@ -1,0 +1,24 @@
+<!doctype html>
+	<head> 
+    <title>robomua</title>
+	<meta charset = "utf-8" /> 	
+	<link rel = "icon" href = "https://i.pinimg.com/236x/6c/cb/ac/6ccbac64a795932f31a00cc819e117b9--fashion-magazines-young-women.jpg" type = "image/x-icon">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+	</head> 
+
+<body>	
+    <center><font color="#A67C00" size="40px" class="letter" ><letter-spacing="0.5">roboMUA</letter-spacing></font></center>
+	<br>
+	<center><img src="{{url_for('static', filename='img/2.jpg')}}"></center>
+		<br>
+	
+	<center><font color="#32527b" size="+2">Beauty contoured by AI</font></center>
+	<br>
+	
+    <form method=post enctype=multipart/form-data action = "/results">
+      <center><button class="button button1"><input type=file name=file></button>
+      <input type=submit value=Upload >
+	  </center>
+	</form>
+	</body>
