@@ -6,3 +6,4 @@ Werkzeug
 Flask
 requests
 Pillow
+pandas
