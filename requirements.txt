@@ -6,8 +6,3 @@ Werkzeug
 Flask
 requests
 Pillow
-numpy==1.24.1
-matplotlib
-pandas
-seaborn
-wheel
