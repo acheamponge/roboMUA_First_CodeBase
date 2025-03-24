@@ -8,3 +8,4 @@ Flask
 requests
 Pillow
 pandas
+matplotlib==3.1.2
